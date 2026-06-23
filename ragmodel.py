@@ -10,7 +10,7 @@ from langchain_core.documents import Document # to store text and metadata
 from langchain_text_splitters import CharacterTextSplitter # to split large text into smaller chunks
 from langchain_community.vectorstores import FAISS # to store embeddings for similarity search
 
-key = os.getenv('GOOGLE_API_KEY')
+key = st.secrets('GOOGLE_API_KEY')
 
 genai.configure(api_key=key)
 
