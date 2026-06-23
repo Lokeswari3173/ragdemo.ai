@@ -22,7 +22,18 @@ st.set_page_config('RAG ASSISTANT')
 
 st.title('RAG Assistant :blue[Using Embedding and LLM]🎯')
 st.subheader(':green[Your Intelligent Document Assistant 📌👤]')
+st.sidebar.markdown("### About Me")
+st.sidebar.write("Mangasamudram Lokeswari")
+st.sidebar.image("profile.jpg", width=150)
 
+st.sidebar.write("👩‍💻 Mangasamudram Lokeswari")
+st.sidebar.write("📊 Data Science & Gen AI")
+st.sidebar.write("🔗 github.com/Lokeswari3173")
+st.sidebar.markdown("### Role")
+st.sidebar.write("Data Science & Gen AI")
+
+st.sidebar.markdown("### GitHub")
+st.sidebar.write("github.com/Lokeswari3173")
 with st.spinner('Loading embedding model...'):
     embedding_model = load_embedding()
     
