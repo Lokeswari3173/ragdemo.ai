@@ -10,3 +10,5 @@ langchain-community #extra integration
 langchain-text-splitters #to split large data into smaller chunks
 sentence-transformers #pretrained embedding models to convert text to vectors
 langchain-core #document,chain,etc..
+torch
+torchvision
