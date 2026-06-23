@@ -24,7 +24,7 @@ st.title('RAG Assistant :blue[Using Embedding and LLM]🎯')
 st.subheader(':green[Your Intelligent Document Assistant 📌👤]')
 st.sidebar.markdown("### About Me")
 st.sidebar.write("Mangasamudram Lokeswari")
-st.sidebar.image("profile.jpg", width=150)
+
 
 st.sidebar.write("👩‍💻 Mangasamudram Lokeswari")
 st.sidebar.write("📊 Data Science & Gen AI")
